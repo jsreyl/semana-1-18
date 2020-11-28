@@ -5,58 +5,40 @@ body{
     margin-left: auto;
 }
 
-.header{
-    background-color: aqua;
-    margin-bottom: 20px;
-}
-
-.noticias{
-    background-color: #FFA1FC;
+.footer{
     display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-.noticia{
-    display: flex;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.noticia-imagen{
-    width: 300px;
-    height: 200px;
-    margin: 10px 0;
-    padding: 0 40px;
-    /*display: flex;
-    justify-content: space-evenly;*/
-}
-
-.container-noticias{
-    width: 50%;
-    /*display: flex;
-    justify-content: space-evenly;*/
-}
-
-.noticia-texto{
     text-align: justify;
+    background-color: #C794FF;
 }
 
-.noticia-descripcion{
+.footer-texto{
+    margin-left: 50px;
+    width: 30%;
+    padding: 2% 2% 2% 2%;
+}
+
+.footer-title{
     font-size: 12px;
 }
 
-.noticia-texto > span.noticia-url{
-    text-align: right;
-    font-size: 8px;
+.footer-texto > p,a{
+    font-size: 12px;
 }
-
-.noticia-url{
-    float: right;
-}
-
-.noticia-url > a:hover{
+.footer-texto > a:hover{
     font-size: 16px;
-    text-decoration: underline;
+}
+
+.footer-integrantes{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 70%;
+    padding: 2% 2% 2% 2%;
+}
+
+.footer-integrantes__lista{
+    padding-left: 20px;
+}
+
+.footer-integrantes__lista__elemento{
+    font-size: 12px;
 }
