@@ -1,0 +1,59 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1200px;
+    text-align: justify;
+    background-color: ghostwhite;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cabecera{
+    display:flex;
+    background-color: lightcoral;
+    align-items: center;
+    height: 150px;
+}
+.cabecera1{
+    width: 50%;
+}
+.menuPrincipal{
+    text-align: right;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.enlace:hover{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner__titulo{
+    position: absolute;
+    color: white;
+
+}
+.sección{
+    min-height: 250px;
+}
+.servicios2{
+    width: 33%;
+    min-height: 150px;
+    background-color: aquamarine;
+    display: inline-block;
+    text-align: center;
+}
+.equipo4{
+    width: 33%;
+    background-color: greenyellow;
+    display: inline-table;
+}
+.nombreParticipante{
+    font-weight: bold;
+    text-align: center;
+}
