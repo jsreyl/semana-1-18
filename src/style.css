@@ -1,6 +1,8 @@
 body{
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 1200px;
+    text-align: justify;
+    background-color: ghostwhite;
     margin-right: auto;
     margin-left: auto;
 }
@@ -14,7 +16,7 @@ body{
 .footer-texto{
     margin-left: 50px;
     width: 30%;
-    padding: 2% 2% 2% 2%;
+    padding: 10px;
 }
 
 .footer-title{
@@ -32,7 +34,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     width: 70%;
-    padding: 2% 2% 2% 2%;
+    padding: 10px;
 }
 
 .footer-integrantes__lista{
