@@ -120,3 +120,41 @@ body{
     font-size: 16px;
     text-decoration: underline;
 }
+
+.footer{
+    display: flex;
+    text-align: justify;
+    background-color: #C794FF;
+}
+
+.footer-texto{
+    margin-left: 50px;
+    width: 30%;
+    padding: 10px;
+}
+
+.footer-title{
+    font-size: 12px;
+}
+
+.footer-texto > p,a{
+    font-size: 12px;
+}
+.footer-texto > a:hover{
+    font-size: 16px;
+}
+
+.footer-integrantes{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 70%;
+    padding: 10px;
+}
+
+.footer-integrantes__lista{
+    padding-left: 20px;
+}
+
+.footer-integrantes__lista__elemento{
+    font-size: 12px;
+}
