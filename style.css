@@ -10,10 +10,11 @@ body{
     display:flex;
     align-items: center;
     height: 150px;
-    background-color: #9AF8DC;
+    background-color: #C8FAE1;
 }
 .cabecera1{
     width: 50%;
+    font-size: x-large;
 }
 .menuPrincipal{
     text-align: right;
@@ -21,6 +22,9 @@ body{
     display: flex;
     justify-content: space-between;
     
+}
+.botones{
+    background-color: #8C9CFF;
 }
 .enlace:hover{
     font-weight: bold;
@@ -39,33 +43,39 @@ body{
 
 }
 .sección{
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     display: flex;
     min-height: 150px;
     justify-content: space-between;
 }
 .servicios2{
     width: 32.5%;
-    background-color: #86D9A9;
-    padding: 15px;
+    background-color: #B1DEBB;
+    margin: 5px;
+    padding: 10px;
 }
 .titulo2{
     text-align: center;
 }
+.centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .noticias{
-    background-color: #A1F0AC;
+    background-color: #D3F5D0;
 }
 .equipo4{
     width: 32.5%;
-    display: inline-table;
-    background-color: #96D986;
-    padding: 15px;
+    background-color: #C5DEB1;
+    margin: 5px;
+    padding: 10px;
 }
 .nombreParticipante{
     font-weight: bold;
     text-align: center;
 }
 .footer{
-    background-color: #CCF89A;
+    background-color: #EFFAC8;
 }
