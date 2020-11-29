@@ -1,13 +1,10 @@
 body{
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 1200px;
+    text-align: justify;
+    background-color: ghostwhite;
     margin-right: auto;
     margin-left: auto;
-}
-
-.header{
-    background-color: aqua;
-    margin-bottom: 20px;
 }
 
 .noticias{
@@ -18,10 +15,8 @@ body{
 }
 .noticia{
     display: flex;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 5px;
+    padding: 10px;
 }
 
 .noticia-imagen{
@@ -35,8 +30,6 @@ body{
 
 .container-noticias{
     width: 50%;
-    /*display: flex;
-    justify-content: space-evenly;*/
 }
 
 .noticia-texto{
